@@ -1,9 +1,28 @@
-**This repo is supposed to used as config by NvChad users!**
+# BEHOLD! my dots :)
+This is the repo I use to keep track of and sync my Neovim config between my
+systems. It's based on the wonderful [NvChad](https://nvchad.com/), which made
+my life way easier when I was just getting off of VS Code. Feel free to use
+anythink you'd like from here!
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+Note: Just like with normal NvChad, you'll need a
+[NerdFont](https://www.nerdfonts.com/) and a true-color terminal.
 
-# Credits
+# Setup Language Servers
+So far, these are the language servers that have been configured. You'll still
+need to install them with 'Mason' before use.
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+- lua_ls (Lua)
+- clangd (C++)
+- pylsp (Python)
+
+# Development Environment Recommendations
+Here are a few tips that have helped me streamline my workflow a bit.
+
+1. [Lazygit](https://github.com/jesseduffield/lazygit) is a great terminal-based
+UI for git which has vim-like menu navigation. It makes managing git way easier
+and gives you all the information you need about your repo at a glance.
+1. REMAP CAPS LOCK TO ESCAPE. You'll never go back.
+1. Try setting a terminal background. It's a good way to make it feel more like
+home.
+1. I personally use the dvorak keyboard layout. It's certainly not for everyone,
+but it has made typing way more comfortable and enjoyable.
